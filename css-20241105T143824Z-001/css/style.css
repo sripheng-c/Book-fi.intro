@@ -1,0 +1,37 @@
+.zeee{
+background-color: rgb(241, 222, 133);
+
+  margin-top: 20px; /* ปรับค่าตามที่ต้องการ */
+
+
+
+
+}
+.pasaa {
+    font-family: "Sarabun", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+.item {
+    flex: 1 1 200px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+}
